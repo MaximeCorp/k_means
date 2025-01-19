@@ -7,4 +7,4 @@ When the difference is considered to be low enough, the points can be replaced b
 In the case of image compression, the points are the pixels and their coordinates (x,y,z) are their rgb, the final result is a picture with only k different colors.
 
 On this repository, there is a picture ("test.jpg") and the results ("k_cluster.png").
-The running time is very very long and the result is not that good, to make this better I should change the maximum distance and find a way to initalize clusters in a more smart way than randomly.
+The running time is very very long and the result is not that good, to make this better I should change the maximum distance and find a way to initalize clusters in a smarter way than randomly.
