@@ -5,3 +5,6 @@ At each step, every point in the dataset will be assigned to the closest cluster
 The aim is to minimize the sum of the distance between the points and their assigned cluster.
 When the difference is considered to be low enough, the points can be replaced by their cluster.
 In the case of image compression, the points are the pixels and their coordinates (x,y,z) are their rgb, the final result is a picture with only k different colors.
+
+On this repository, there is a picture ("test.jpg") and the results ("k_cluster.png").
+The running time is very very long and the result is not that good, to make this better I should change the maximum distance and find a way to initalize clusters in a more smart way than randomly.
